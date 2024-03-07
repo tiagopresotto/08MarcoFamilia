@@ -42,7 +42,7 @@ header > h1 {
     font-size: 10vw;
 }
 
-header > p {
+header > h3 {
     padding-bottom: 50px;
 }
 
@@ -53,7 +53,7 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 5vw;
-    background-image: ;
+
 }
 
 section > p {
@@ -70,11 +70,16 @@ section.imagem > p {
 section#Flor {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    background-attachment: fixed;
 }
 
 section#Maria {
     background-image: url(imagens/maria_Original).jpg);
-    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+    margin: 0%;
 }
 
 section.normal {
@@ -88,7 +93,7 @@ section.imagem {
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.449);
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 
 footer{
